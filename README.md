@@ -13,21 +13,25 @@
 
 ### 👋 What this is
 
-**ZENOUZ.ai** is the home of Kayvan Zenouz's public AI work — agentic systems, applied research, and selective product experiments, built to make people **more capable, curious, and in control**. Personal-first, rigor-led, and developed in the open.
+**ZENOUZ.ai** is the home of Kayvan Zenouz's public AI work — agentic systems, applied research, and selective product experiments, built to make people **more capable, curious, and in control**. The throughline: **let AI reason, but never let it decide what matters unchecked.** Personal-first, rigor-led, and developed in the open.
 
 ### 🚀 Projects
 
 | Project | What it is |
 | --- | --- |
-| **[ZenInvest](https://zenouz.ai/projects/zeninvest/)** | An open, agentic investing system — a three-model committee debates each idea while deterministic controls keep final veto. *Proof-of-concept on a paper-trading account; not financial advice.* |
-| **[ZenGrowth](https://zenouz.ai/projects/zengrowth/)** | A local-first, auditable career co-pilot that scores senior roles and drafts **evidence-grounded** applications, with hard anti-fabrication gates. |
+| **[ZenInvest](https://zenouz.ai/projects/zeninvest/)** | An autonomous, multi-LLM **investment committee** — Claude leads strategy, GPT-4o plays skeptic, Gemini scores risk — that debates over multiple turns before any trade. Every safety-critical control (risk vetoes, drawdown & position limits) lives in deterministic Python *no model can override*. <br/>*~62K LOC · 1,341 passing tests · Dockerized. Research proof-of-concept; not financial advice.* |
+| **[ZenGrowth](https://zenouz.ai/projects/zengrowth/)** | A local-first, auditable **career co-pilot** that scores senior roles and drafts evidence-grounded applications. Built around a *truth-path invariant* — no generated document may assert a fact that doesn't trace to verified evidence — enforced at write time **and** measured as a CI safety gate. |
 
 ### 🧠 How we build
 
 - **Agentic, but inspectable** — specialist agents reason; a deterministic core makes the consequential decisions.
-- **Human-in-control** — explicit reasoning and hard safety rules sit above model output.
+- **Human-in-control** — explicit reasoning and hard safety rules sit *above* model output.
+- **Evidence over vibes** — claims are grounded, evaluated, and gated; unproven components stay read-only until they earn promotion.
 - **Built in public** — logic and trade-offs open to inspection, not hidden in a black box.
-- **Educational by intent** — research and product experiments with real teaching value.
+
+### 🔬 In the lab
+
+These two are the public tip of a wider body of work — agentic forecasting, governed-memory research, pricing & risk, and simulation-first robotics. More surfaces here as it's ready.
 
 ### 🧭 Explore
 
