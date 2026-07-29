@@ -28,9 +28,10 @@
         <img src="assets/zeninvest-poster.png" width="420" height="235" alt="ZenInvest project poster showing a multi-agent investment committee and defense-in-depth risk controls" />
       </a>
       <h3><a href="https://zenouz.ai/projects/zeninvest/">ZenInvest</a></h3>
-      <p><strong>Autonomous, multi-LLM investment committee where Claude leads strategy, GPT-4o plays skeptic, and Gemini scores risk before any trade. Deterministic Python owns every safety-critical control.</strong></p>
-      <p><em>~62K LOC · 1,341 passing tests · Dockerized on a VPS.</em></p>
-      <p>Built around inspectable debate, hard risk vetoes, drawdown and position limits, operator visibility, and a clear separation between model reasoning and deterministic control.</p>
+      <p><strong>Open-source, multi-LLM investment research and paper-trading system with an inspectable committee, deterministic risk gates, and explicit operator approval.</strong></p>
+      <p><em>1,300+ pytest cases · Practice-account execution · Curated public mirror.</em></p>
+      <p>Built around evidence-backed debate, hard risk vetoes, drawdown and position limits, operator visibility, and a clear separation between model reasoning and deterministic control.</p>
+      <p><a href="https://github.com/zenouz-ai/zeninvest">View the public repository →</a></p>
       <p><sub>Research proof-of-concept; not financial advice.</sub></p>
     </td>
     <td width="50%" valign="top">
@@ -38,8 +39,9 @@
         <img src="assets/zengrowth-poster.png" width="420" height="235" alt="ZenGrowth project poster showing an auditable career operating system and evidence-grounded application workflow" />
       </a>
       <h3><a href="https://zenouz.ai/projects/zengrowth/">ZenGrowth</a></h3>
-      <p><strong>Evaluation-driven career operating system using RAG, GraphRAG, and LLM-as-judge to score senior roles and write evidence-grounded applications with traceable truth paths.</strong></p>
-      <p>Built for senior AI and data-science searches: discover roles, score fit, draft tailored materials, and keep every generated claim tied back to verified evidence.</p>
+      <p><strong>Local-first career operating system for discovering and scoring roles, grounding application materials, and managing the path from interview to offer and onboarding.</strong></p>
+      <p>Built for senior AI and data-science searches, with traceable evidence, 400+ backend test functions plus frontend checks, and human review before any external action.</p>
+      <p><a href="https://github.com/zenouz-ai/zengrowth">View the public repository →</a></p>
       <p><sub>Early beta; generated applications are drafts for human review.</sub></p>
     </td>
   </tr>
@@ -50,7 +52,7 @@
 - **Agentic, but inspectable** — specialist agents can reason, debate, retrieve, and critique; deterministic systems keep authority over consequential decisions.
 - **Human-in-control** — autonomy is useful only when the operator can pause it, inspect it, and override it.
 - **Evidence over vibes** — claims are grounded, evaluated, and gated before they become user-facing output.
-- **Built in public** — architecture, trade-offs, safety posture, and product direction are exposed for scrutiny.
+- **Published for scrutiny** — curated public mirrors expose architecture, trade-offs, safety posture, and product direction while private operator data stays private.
 
 ### 🔬 In the lab
 
