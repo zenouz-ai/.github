@@ -19,6 +19,8 @@
 
 **ZENOUZ.ai** is Kayvan Zenouz's public AI lab for agentic systems, applied research, and product experiments that make people **more capable, curious, and in control**. The work is ambitious by design, but the rule is simple: let AI reason, never let it decide what matters unchecked.
 
+**Sectors:** Energy · Utilities · Financial Services · Robotics · Higher Education & Research
+
 > **Disclaimer.** ZENOUZ.ai and everything in this organization is personal,
 > non-commercial research and development that I maintain in a personal
 > capacity. It is unrelated to and independent of my professional employment,
