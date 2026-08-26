@@ -31,13 +31,12 @@ Work spans energy, utilities, financial services, robotics, and education.
 
 ## Portfolio map
 
-```mermaid
-flowchart LR
-    A[Model reasoning] --> B[Evidence and evaluation]
-    B --> C[Deterministic controls]
-    C --> D[Human decision]
-    D -.-> B
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/1-Model_reasoning-7C3AED?style=for-the-badge" alt="Step 1: model reasoning" />
+  <img src="https://img.shields.io/badge/2-Evidence_and_evaluation-2563EB?style=for-the-badge" alt="Step 2: evidence and evaluation" />
+  <img src="https://img.shields.io/badge/3-Deterministic_controls-0891B2?style=for-the-badge" alt="Step 3: deterministic controls" />
+  <img src="https://img.shields.io/badge/4-Human_decision-D97706?style=for-the-badge" alt="Step 4: human decision" />
+</p>
 
 The same control pattern appears across investing, career workflows, forecasting,
 pricing, governed memory, and simulation-first robotics. Each project changes the
