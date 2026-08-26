@@ -33,10 +33,10 @@ Work spans energy, utilities, financial services, robotics, and education.
 
 ```mermaid
 flowchart LR
-    A["Model reasoning"] --> B["Evidence and evaluation"]
-    B --> C["Deterministic controls"]
-    C --> D["Human decision"]
-    D -. "feedback" .-> B
+    A[Model reasoning] --> B[Evidence and evaluation]
+    B --> C[Deterministic controls]
+    C --> D[Human decision]
+    D -.-> B
 ```
 
 The same control pattern appears across investing, career workflows, forecasting,
