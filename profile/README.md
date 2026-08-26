@@ -29,6 +29,20 @@ Work spans energy, utilities, financial services, robotics, and education.
 - **Deterministic at the boundary:** code, not model confidence, enforces hard constraints
 - **Evidence-led:** evaluations and failure cases matter more than activity or marketing metrics
 
+## Portfolio map
+
+```mermaid
+flowchart LR
+    A["Model reasoning"] --> B["Evidence and evaluation"]
+    B --> C["Deterministic controls"]
+    C --> D["Human decision"]
+    D -. "feedback" .-> B
+```
+
+The same control pattern appears across investing, career workflows, forecasting,
+pricing, governed memory, and simulation-first robotics. Each project changes the
+domain while keeping authority, evidence, and failure handling explicit.
+
 ## Open-source systems
 
 ### [ZenInvest](https://github.com/zenouz-ai/zeninvest)
@@ -37,10 +51,13 @@ Work spans energy, utilities, financial services, robotics, and education.
   <img src="assets/zeninvest-poster.png" width="100%" alt="ZenInvest project poster showing a multi-agent investment committee and defense-in-depth risk controls" />
 </a>
 
-A multi-LLM investment research and paper-trading system with an inspectable
-committee, deterministic risk gates, and explicit operator control. Evidence-backed
-debate remains separate from the code that owns capital constraints and execution.
-[Project brief](https://zenouz.ai/projects/zeninvest/)
+An agentic investment research and paper-trading system where distinct strategy,
+challenge, and risk roles examine each proposal. Evidence-backed debate remains
+separate from deterministic code that owns capital constraints, execution, and
+the final trading veto.
+
+**Pattern:** multi-vendor reasoning · deterministic risk controls · evidence-gated learning<br/>
+**Explore:** [repository](https://github.com/zenouz-ai/zeninvest) · [project brief](https://zenouz.ai/projects/zeninvest/)
 
 <sub>Research proof of concept. Not financial advice.</sub>
 
@@ -51,17 +68,33 @@ debate remains separate from the code that owns capital constraints and executio
 </a>
 
 A local-first career operating system for role discovery, evidence-grounded
-materials, interviews, offers, and later career transitions. Grounding gates,
-audit trails, and human approval keep external actions under operator control.
-[Project brief](https://zenouz.ai/projects/zengrowth/)
+applications, interviews, offers, and later career transitions. Grounding gates
+block unsupported claims, while audit trails and human approval keep external
+actions under operator control.
+
+**Pattern:** verified evidence · explainable ranking · human-controlled workflow<br/>
+**Explore:** [repository](https://github.com/zenouz-ai/zengrowth) · [project brief](https://zenouz.ai/projects/zengrowth/)
 
 <sub>Working system under prospective evaluation. Generated materials require human review.</sub>
 
 ## Research track
 
-The wider portfolio covers governed memory, agentic forecasting, pricing and
-risk, simulation-first robotics, and practical evaluation systems. Explore the
-[project index](https://zenouz.ai/projects/) and [research writing](https://zenouz.ai/writing/).
+<p>
+  <img src="https://img.shields.io/badge/Governed_memory-7C3AED?style=flat-square" alt="Governed memory" />
+  <img src="https://img.shields.io/badge/Forecasting-2563EB?style=flat-square" alt="Forecasting" />
+  <img src="https://img.shields.io/badge/Pricing-0891B2?style=flat-square" alt="Pricing" />
+  <img src="https://img.shields.io/badge/Robotics-059669?style=flat-square" alt="Robotics" />
+  <img src="https://img.shields.io/badge/Evaluation-D97706?style=flat-square" alt="Evaluation" />
+</p>
+
+- **[ZenArena](https://zenouz.ai/writing/zenarena-governed-memory/):** tests whether a frozen model improves through governed memory alone
+- **[ZenForecast](https://zenouz.ai/writing/zenforecast-agentic-forecasting/):** combines probabilistic forecasts with leakage-resistant evaluation and an append-only record
+- **[ZenRate](https://zenouz.ai/writing/zenrate-agentic-pricing/):** keeps deterministic pricing maths separate from agent advice, explanation, and audit
+- **[ZenLab](https://zenouz.ai/writing/zenlab-agentic-sandbox/):** qualifies agentic techniques through small, reproducible experiments and promotion gates
+- **[Stitch](https://zenouz.ai/writing/stitch-digital-twin/):** tests a wildlife-safe canal-cleaning robot in simulation before hardware spend
+
+Explore the [project index](https://zenouz.ai/projects/) and
+[research writing](https://zenouz.ai/writing/) for architecture, evidence, and caveats.
 
 > **Independent work.** ZENOUZ.ai is personal, non-commercial research and
 > development, separate from professional employment. It is shared for research
