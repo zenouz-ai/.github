@@ -20,7 +20,9 @@ ZENOUZ.ai is a public AI lab for agentic systems, applied research, and product
 experiments. Models can research, reason, and explain, while deterministic
 software and human review retain authority over consequential decisions.
 
-Work spans energy, utilities, financial services, robotics, and education.
+Work spans finance, insurance, energy and utilities, robotics, and higher
+education, and draws on enterprise AI leadership, consulting, and a research
+background in pure mathematics.
 
 ## How the systems are built
 
@@ -50,15 +52,17 @@ domain while keeping authority, evidence, and failure handling explicit.
   <img src="assets/zeninvest-poster.png" width="100%" alt="ZenInvest project poster showing a multi-agent investment committee and defense-in-depth risk controls" />
 </a>
 
-An agentic investment research and paper-trading system where distinct strategy,
-challenge, and risk roles examine each proposal. Evidence-backed debate remains
-separate from deterministic code that owns capital constraints, execution, and
-the final trading veto.
+An open, audited experiment in where LLMs add value to investment decisions.
+A multi-LLM committee traded a paper account for six months and showed no entry
+edge; the evidence is published as a working paper. The redesign, ZEN-2, tests a
+thesis-driven agent against index and rules-only arms under a decision rule
+frozen in advance, while deterministic code keeps capital constraints, execution,
+and the final veto.
 
-**Pattern:** multi-vendor reasoning · deterministic risk controls · evidence-gated learning<br/>
-**Explore:** [repository](https://github.com/zenouz-ai/zeninvest) · [project brief](https://zenouz.ai/projects/zeninvest/)
+**Pattern:** published negative results · control arms · deterministic risk controls<br/>
+**Explore:** [repository](https://github.com/zenouz-ai/zeninvest) · [project brief](https://zenouz.ai/projects/zeninvest/) · [working paper](https://github.com/zenouz-ai/zeninvest/blob/main/docs/HONEST_AI_VALUE_REVIEW.md)
 
-<sub>Research proof of concept. Not financial advice.</sub>
+<sub>Research proof of concept on a paper-trading account, with autonomous buying paused during the redesign. Not financial advice.</sub>
 
 ### [ZenGrowth](https://github.com/zenouz-ai/zengrowth)
 
@@ -72,7 +76,7 @@ block unsupported claims, while audit trails and human approval keep external
 actions under operator control.
 
 **Pattern:** verified evidence · explainable ranking · human-controlled workflow<br/>
-**Explore:** [repository](https://github.com/zenouz-ai/zengrowth) · [project brief](https://zenouz.ai/projects/zengrowth/)
+**Explore:** [repository](https://github.com/zenouz-ai/zengrowth) · [project brief](https://zenouz.ai/projects/zengrowth/) · [working paper](https://github.com/zenouz-ai/zengrowth/blob/main/output/pdf/zengrowth-grounded-not-automated-v0.4.pdf)
 
 <sub>Working system under prospective evaluation. Generated materials require human review.</sub>
 
@@ -91,9 +95,11 @@ actions under operator control.
 - **[ZenRate](https://zenouz.ai/writing/zenrate-agentic-pricing/):** keeps deterministic pricing maths separate from agent advice, explanation, and audit
 - **[ZenLab](https://zenouz.ai/writing/zenlab-agentic-sandbox/):** qualifies agentic techniques through small, reproducible experiments and promotion gates
 - **[Stitch](https://zenouz.ai/writing/stitch-digital-twin/):** tests a wildlife-safe canal-cleaning robot in simulation before hardware spend
+- **[Matroid grid RL](https://zenouz.ai/writing/matroid-grid-rl-negative-result/):** a pre-registered study of a solver-free graph-theoretic mask for grid-control RL, reported as a negative result
 
-Explore the [project index](https://zenouz.ai/projects/) and
-[research writing](https://zenouz.ai/writing/) for architecture, evidence, and caveats.
+Explore the [project index](https://zenouz.ai/projects/),
+[research and publications](https://zenouz.ai/research/), and
+[R&D writing](https://zenouz.ai/writing/) for architecture, evidence, and caveats.
 
 > **Independent work.** ZENOUZ.ai is personal, non-commercial research and
 > development, separate from professional employment. It is shared for research
