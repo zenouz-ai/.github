@@ -5,7 +5,7 @@
 <h1 align="center">Inspectable AI systems with accountable control</h1>
 
 <p align="center">
-  Applied research and open-source products by Kayvan Zenouz.<br/>
+  Applied research and open-source products by Kayvan Zenouz, Director of AI.<br/>
   Built to keep people capable, curious, and in control.
 </p>
 
@@ -21,8 +21,9 @@ experiments. Models can research, reason, and explain, while deterministic
 software and human review retain authority over consequential decisions.
 
 Work spans finance, insurance, energy and utilities, robotics, and higher
-education, and draws on enterprise AI leadership, consulting, and a research
-background in pure mathematics.
+education. It draws on current enterprise AI leadership as Director of AI in
+commercial insurance, earlier roles in FTSE-100 financial services and Big Four
+consulting, and a research background in pure mathematics.
 
 ## How the systems are built
 
