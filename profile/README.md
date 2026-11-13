@@ -42,7 +42,7 @@ consulting, and a research background in pure mathematics.
 </p>
 
 The same control pattern appears across investing, career workflows, forecasting,
-pricing, governed memory, and simulation-first robotics. Each project changes the
+pricing, governed memory, simulation-first robotics, and generative video. Each project changes the
 domain while keeping authority, evidence, and failure handling explicit.
 
 ## Open-source systems
@@ -80,6 +80,25 @@ actions under operator control.
 **Explore:** [repository](https://github.com/zenouz-ai/zengrowth) · [project brief](https://zenouz.ai/projects/zengrowth/) · [working paper](https://github.com/zenouz-ai/zengrowth/blob/main/output/pdf/zengrowth-grounded-not-automated-v0.4.pdf)
 
 <sub>Working system under prospective evaluation. Generated materials require human review.</sub>
+
+## Generative art and investigation
+
+### [Other People's Windows](https://github.com/zenouz-ai/other-peoples-windows)
+
+<a href="https://zenouz.ai/projects/other-peoples-windows/">
+  <img src="assets/other-peoples-windows.jpg" width="100%" alt="Other People's Windows: six AI-generated London windows at dusk, a chip shop, a café, a high-rise, a florist, a basement kitchen and a front room with a dog" />
+</a>
+
+A generative video artwork and an open investigation into directing image and
+video models: thirty AI-generated London windows at dusk, from closing time to
+bedtime, toured by a virtual camera. Image and video models were compared on the
+same prompts, and every take is measured for camera drift, tremble, and unwanted
+sound before it is repaired and looped in code.
+
+**Pattern:** models compared on fixed prompts · measured quality checks · a ledger of every paid call<br/>
+**Explore:** [repository](https://github.com/zenouz-ai/other-peoples-windows) · [project page](https://zenouz.ai/projects/other-peoples-windows/) · [film](https://youtu.be/MfroqpR3UYQ) · [findings](https://github.com/zenouz-ai/other-peoples-windows/blob/main/docs/FINDINGS.md)
+
+<sub>Every person and place is AI-generated. Code under MIT; the artwork is all rights reserved.</sub>
 
 ## Research track
 
