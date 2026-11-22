@@ -96,7 +96,7 @@ same prompts, and every take is measured for camera drift, tremble, and unwanted
 sound before it is repaired and looped in code.
 
 **Pattern:** models compared on fixed prompts · measured quality checks · a ledger of every paid call<br/>
-**Explore:** [repository](https://github.com/zenouz-ai/other-peoples-windows) · [project page](https://zenouz.ai/projects/other-peoples-windows/) · [film](https://youtu.be/MfroqpR3UYQ) · [findings](https://github.com/zenouz-ai/other-peoples-windows/blob/main/docs/FINDINGS.md)
+**Explore:** [repository](https://github.com/zenouz-ai/other-peoples-windows) · [project page](https://zenouz.ai/projects/other-peoples-windows/) · [film](https://youtu.be/0D90ZbpSdlI) · [findings](https://github.com/zenouz-ai/other-peoples-windows/blob/main/docs/FINDINGS.md)
 
 <sub>Every person and place is AI-generated. Code under MIT; the artwork is all rights reserved.</sub>
 
